@@ -1,5 +1,4 @@
 <?php
-<?php
 /**
  * APP公共工具类
  * @name token
