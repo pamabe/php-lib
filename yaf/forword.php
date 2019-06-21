@@ -8,17 +8,11 @@
 
      /**
       * action -> action 
-      public boolean Yaf_Controller_Abstract::forward( string  $action ,
-                                                 array  $params = NULL );
+      public boolean Yaf_Controller_Abstract::forward( string  $action ,array  $params = NULL );
       * controller->controller 
-      public boolean Yaf_Controller_Abstract::forward( string  $controller ,
-                                                 string  $action ,
-                                                 array  $params = NULL );
+      public boolean Yaf_Controller_Abstract::forward( string  $controller ,string  $action ,array  $params = NULL );
       * module -> module                                           
-      public boolean Yaf_Controller_Abstract::forward( string  $module ,
-                                                 string  $controller ,
-                                                 string  $action ,
-                                                 array  $params = NULL ); 
+      public boolean Yaf_Controller_Abstract::forward( string  $module ,string  $controller ,string  $action ,array  $params = NULL ); 
 
       * module : 要转给动作的模块, 注意要首字母大写, 如果为空, 则转给当前模块
       * controller: 要转给动作的控制器, 注意要首字母大写, 如果为空, 则转给当前控制器
